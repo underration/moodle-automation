@@ -1,0 +1,14 @@
+base_url = "https://lms.omu.moe"
+# Empty: discover courses listed on the Moodle home page.
+# Set IDs explicitly if your home page does not list all enrolled courses.
+course_ids = []
+state_dir = ".moodle"
+output_dir = "output"
+timezone = "Asia/Tokyo"
+language = "日本語"
+max_file_mb = 50
+max_context_chars = 180000
+codex_timeout_seconds = 900
+# Empty: use Codex's default model. Specify a model available to your account if needed.
+model = ""
+
